@@ -1,0 +1,21 @@
+
+
+/* Tiny Carousel */
+#slider1 {  overflow:hidden; padding: 0 0 10px;   }
+#slider1 .viewport { float: left; width: 80%; height: 100px; overflow: hidden; position: relative; }
+#slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider1 .next { background:url("http://darulilim.com/images/right-arrow.png") margin: 30px 0 0 10px;  }
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 570px; left: 0 top: 0; }
+#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; width: 120px;}
+#slider1 .overview li img{ height: 75px; width: 120px;}
+
+/* Tiny Carousel */
+#slider2 { overflow:hidden; padding: 0 0 10px;   }
+#slider2 .viewport { float: left; width: 90%; height: 100px; overflow: hidden; position: relative; }
+#slider2 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider2 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
+#slider2 .disable { visibility: hidden; }
+#slider2 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 800px; left: 0 top: 0; }
+#slider2 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}
+
